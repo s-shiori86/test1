@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+#pageTop img{
+	width:100%;
+	height:auto;
+}
+
+h2{
+	text-align:center;
+	font-size:2em;
+	margin:60px auto 30px;
+}
+
+.box{
+	width:960px;
+	height:450px;
+	margin:50px auto;
+	background:#9CC;
+	text-align:center;
+}
+
+.list-mv07{
+	opacity: 0;
+	transform: translate(0,60px); 
+	-webkit-transform: translate(0,60px); 
+}
+.mv07{
+	opacity: 1.0;
+	transform: translate(0,0); 
+	-webkit-transform: translate(0,0);
+}

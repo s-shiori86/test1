@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+/* メインビジュアルの設定 */
+
+#pageTop img{
+	width:100%;
+	height:auto;
+}
+
+
+h2{
+	text-align:center;
+	font-size:2em;
+	margin:80px auto 30px;
+}
+
+
+/* たとえば、こんな過ごし方 */
+
+#sugosu{
+	font-size:1em;
+	text-align:center;
+	margin:0 auto 50px;
+}
+
+h3{
+	width:860px;
+	height:70px;
+	margin:0 auto;
+	padding-top:20px;
+	border:5px solid #ef858c;
+	border-radius:15px 15px 0 0;
+	background:#ef858c;
+	box-sizing:border-box;
+	font-size:1.7em;
+	text-align:center;
+	color:#fff;
+
+	
+}
+
+
+#case{
+	width:860px;
+	height:auto;
+	margin:0 auto;
+	padding:25px 40px 10px;
+	box-sizing:border-box;
+	border-radius:0 0 15px 15px;
+	border:5px solid #ef858c;
+}
+
+#caseEx{
+	width:750px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+#case #caseRead p{
+	text-align:center;
+	font-size:0.9em
+}
+
+.box2{
+	width:200px;
+	height:auto;
+	margin:30px;
+	padding:15px 8px 0;
+	box-sizing:border-box;
+	float:left;
+}
+
+.noRight{
+	margin-right:0;
+}
+
+
+/*#case:after{
+		visibility:hidden;
+		height:0;
+		display:block;
+		font-size:0;
+		content:" ";
+		clear:both;
+}*/
+
+
+.chName{
+	width:150px;
+	height:28px;
+	font-size:1.14em;
+	font-weight:600;
+	text-align:center;
+	line-height:28px;
+	margin:15px auto 10px;;
+}
+
+
+.come{
+	font-size:0.85em;
+	text-align:left;
+}
+
+.box2 .more a{
+	display:block;
+	width:120px;
+	height:25px;
+	margin:10px auto;
+	font-size:0.9em;
+	text-decoration:none;
+	color:#fff;
+	text-align:center;
+	line-height:25px;
+	
+	border-radius:5px;
+	background:#39a869;
+}
+
+.box2 .more a:hover{
+	background:#4ec481;
+}
+
+
+
+/* 季節のイベント */
+
+
+#ivRead{
+	width:860px;
+	height:auto;
+	text-align:center;
+	font-size:0.9em;
+	margin:0 auto 30px;
+}
+
+#season{
+	width:920px;
+	height:auto;
+	margin:0 auto 180px;
+}
+
+
+#season p img{
+	display:block;
+	float:left;
+	margin:15px;
+}
+
+#season:after{
+	visibility:hidden;
+	height:0;
+	display:block;
+	font-size:0;
+	content:" ";
+	clear:both;
+}

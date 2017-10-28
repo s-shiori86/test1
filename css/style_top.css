@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*==========
+トップページ用の設定
+==========*/
+
+
+/* メインビジュアルの設定 */
+
+#pageTop img{
+	width:100%;
+	height:auto;
+}
+
+/*文字サイズを可変にしようか迷っている部分
+#pageTop{
+	width:100%;
+  height:0;
+  padding-top:calc(545 / 1060 * 100%); 
+	background:url(../img/top_main_v.jpg) 0 0 no-repeat;
+	background-size:contain;
+	position:relative;
+	margin-bottom:0;
+}
+
+
+#pageTop p{
+	position:absolute;
+	top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin:0;
+  padding:0;
+	font-size:2.25em;
+	text-align:center;
+	text-shadow:0 1px 5px rgba(255,255,255,0.75);
+}
+*/
+
+/* 「フリースクール」という場所 */
+
+h2{
+	text-align:center;
+	font-size:2em;
+	margin:60px auto 30px;
+}
+
+/* 画面幅が小さくなると画像が下に行くようにしたい。@mediaか？ */
+
+#whatFs{
+	width:920px;
+	margin:0 auto 100px;
+}
+
+.read1{
+	float:left;
+}
+
+.read1 p{
+	font-size:1em;
+	line-height:1.8em;
+	margin-top:15px;
+}
+
+#whatFs p#keyWord1{
+	font-size:1.2em;
+	font-weight:800;
+	color:#399548;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#whatFs p img{
+	display:block;
+	float:right;
+	margin-top:50px;
+}
+
+#whatFs:after{
+		visibility:hidden;
+		height:0;
+		display:block;
+		font-size:0;
+		content:" ";
+		clear:both;
+}
+
+
+/* 3つの魅力 */
+
+#point{
+	width:920px;
+	margin:0 auto 100px;
+	display:flex;
+	justify-content:space-between;
+}
+
+#point .box1{
+	width:280px;
+	height:170px;
+	box-sizing:border-box;
+	border-radius:15px;
+	background:#ef858c;	
+	text-align:center;
+	padding:25px 20px;
+	color:#fff;
+}
+
+#point .box1 h3{
+	width:230px;
+	margin:0 auto 15px;
+	padding-bottom:8px;
+	border-bottom:2px solid #fff;
+	font-size:1.6em;
+}
+
+#point .box1 p{
+	/*margin:0 20px;*/
+	font-size:1em;
+}
+
+
+/* 保護者の方へ */
+
+#pearent{
+	width:920px;
+	margin:0 auto;
+}
+
+#pearent p img{
+	display:block;
+	float:right;
+	margin-top:15px;
+}
+
+#pearent:after{
+		visibility:hidden;
+		height:0;
+		display:block;
+		font-size:0;
+		content:" ";
+		clear:both;
+}
+
+#oyaKai{
+	width:920px;
+	margin:0 auto 126px;
+}
+
+#oyaKai #intro{
+	border-radius:15px;
+	background:#7fced3;
+	padding:15px 20px 20px;
+	float:left;
+	color:#fff;
+	font-size:1em;
+}
+
+#oyaKai #intro h3{
+	width:200px;
+	border-bottom:2px solid #fff;
+	text-align:center;
+	font-size:1.4em;
+	margin-bottom:8px;
+}
+
+#oyaKai p img{
+	display:block;
+	float:right;
+	margin-top:15px;
+	margin-right:120px;
+}
+
+#oyaKai:after{
+		visibility:hidden;
+		height:0;
+		display:block;
+		font-size:0;
+		content:" ";
+		clear:both;
+}
+
+

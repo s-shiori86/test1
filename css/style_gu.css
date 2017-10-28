@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+#pageTop img{
+	width:100%;
+	height:auto;
+}
+/* 見出し部分 */
+
+h2{
+	text-align:center;
+	font-size:2em;
+	margin:60px auto 30px;
+}
+
+.read{
+	font-size:1em;
+	text-align:center;
+	line-height:16px;
+	margin-bottom:50px;
+}
+
+/* コンテンツ部分 */
+
+#stepItem{
+	width:960px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+.stepBox{
+	width:135px;
+	height:195px;
+	box-sizing:border-box;
+	border-radius:8px;
+	background:#ef858c;	
+	/*text-align:center;*/
+	/*padding:25px 20px;*/
+}
+
+.stepBox h3{
+	text-align:center;
+	font-size:1.72em;
+	color:#fff;
+	padding-top:5px;
+}
+
+.stepTtl{
+	width:120px;
+	height:30px;
+	background-color:#fff;
+	border-radius:30px;
+	margin:10px auto;
+}
+
+.stepTtl p{
+	text-align:center;
+	font-size:1.2em;
+	font-weight:600;
+	color:#ef858c;
+	line-height:30px;
+}
+
+.stepInfo{
+	text-align:left;
+	font-size:0.78em;
+	color:#fff;
+	padding:0 8px;
+}
+
+/* 注意書きのリストタグ */
+
+.attention{
+	width:600px;
+	height:auto;
+	font-size:0.85em;
+	margin:20px auto;
+}
+
+.attention li{
+	position:relative;
+	padding-left:20px;
+	margin-bottom:8px;
+}
+
+.listMaru:after{
+	content:''; 
+	display:block; 
+	position:absolute; 
+	top:2px; 
+	left:2px; 
+	border-radius:30px;
+	height:7px; 
+	width:7px; 
+	border:3px solid #7fced3;
+}
+
+/* 料金コース部分 */
+
+#FSplan{
+	width:960px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+
+#FSplan h3{
+	width:465px;
+	height:40px;
+	border-radius:15px 15px 0 0;
+	background:#7fced3;
+	font-size:1.7em;
+	color:#fff;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+.plan{
+	width:465px;
+	height:200px;
+	box-sizing:border-box;
+	border-radius:0 0 15px 15px;
+	border:3px solid #7fced3;
+	font-size:0.9em;
+	padding:15px;
+	text-align:center;
+}
+
+.plan img{
+	display:block;
+	margin:10px auto;
+}
+
+/* フッターまでのスペース調整 */
+.mH100{
+	margin-bottom:100px;
+}

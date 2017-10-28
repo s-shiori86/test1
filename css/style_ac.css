@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 見出し部分 */
+#pageTop img{
+	width:100%;
+	height:auto;
+}
+
+h2{
+	text-align:center;
+	font-size:2em;
+	margin:60px auto 30px;
+}
+
+.read{
+	font-size:1em;
+	text-align:center;
+	line-height:16px;
+	margin-bottom:50px;
+}
+
+/* お問い合わせ部分 */
+
+#addInfo{
+	width:750px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+
+#add{
+	width:390px;
+}
+
+#add th{
+	width:90px;
+	height:40px;
+	text-align:right;
+}
+
+#add td{
+	height:40px;
+	padding-left:15px;
+}
+
+
+#unei{
+	text-align:center;
+	margin:50px auto 120px;
+}
+
+#unei a{
+	color:#2e8b57;
+	font-size:1em;
+	font-weight:400;
+	text-decoration:none;
+	transition:0.25s linear;
+
+}
+
+#unei a:hover{
+	border-bottom:2px solid #39a869;
+
+}
+
